@@ -114,18 +114,4 @@ export NVM_DIR="$HOME/.nvm"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export ANDROID_HOME=$HOME/Android/Sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export FLYCTL_INSTALL="/home/binoy638/.fly"
-export PATH="$FLYCTL_INSTALL/bin:$PATH"
-
-
-export PATH="$HOME/.poetry/bin:$PATH"
-export GOROOT=/usr/lib/go
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-
-[[ -s "/home/binoy638/.gvm/scripts/gvm" ]] && source "/home/binoy638/.gvm/scripts/gvm"
+export PATH=$PATH:/usr/local/go/bin
